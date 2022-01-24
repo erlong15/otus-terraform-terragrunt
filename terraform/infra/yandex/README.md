@@ -1,0 +1,3 @@
+- yc init
+- export YC_TOKEN=$(yc iam create-token)
+- export TF_VAR_yc_token=$YC_TOKEN
