@@ -1,4 +1,6 @@
 .env
 .terraform
 .terragrunt-cache
+*.tfstate
+
 

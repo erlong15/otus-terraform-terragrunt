@@ -1,0 +1,20 @@
+yc_oauth_token = "<your_value>"
+yc_cloud_id    = "<your_value>"
+yc_folder_id   = "<your_value>"
+yc_main_zone   = "<your_value>"
+
+
+trainig_subnets = [
+                        {
+                        "v4_cidr_blocks": "10.110.0.0/16",
+                        "zone": "ru-central1-a"
+                        },
+                        {
+                        "v4_cidr_blocks": "10.120.0.0/16",
+                        "zone": "ru-central1-b"
+                        },
+                        {
+                        "v4_cidr_blocks": "10.130.0.0/16",
+                        "zone": "ru-central1-c"
+                        }
+                    ]
